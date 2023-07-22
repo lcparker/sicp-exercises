@@ -36,5 +36,5 @@
   (if (< start end)
       (search-for-primes (+ start 1) end start-time)))
 
-(define (sp s e)
-  (search-for-primes s e (runtime)))
+(define (find-primes start-prime end-prime)
+  (search-for-primes start-prime end-prime (runtime)))
